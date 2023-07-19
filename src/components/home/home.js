@@ -148,7 +148,7 @@ const Dashboard = () => {
 
     amount = web3.utils.toWei(amount, "ether");
     if (id === "0") {
-      id = "88194";
+      id = "50000";
     }
     let ICU_ = new web3.eth.Contract(ICU.ABI, ICU.address);
     // let value_ = await ICU_.methods.REGESTRATION_FESS().call();
