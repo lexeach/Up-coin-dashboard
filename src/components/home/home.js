@@ -146,7 +146,7 @@ const Dashboard = () => {
     console.log("the referrerID", referrerID);
     let { id, amount } = referrerID;
 
-    amount = web3.utils.toWei(amount, "ether");
+    amount = web3.utils.toWei(amount, "ether")/10000000000000000;
     if (id === "0") {
       id = "50000";
     }
