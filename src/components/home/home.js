@@ -333,8 +333,8 @@ const Dashboard = () => {
         <div className="col-lg-4 col-md-6 col-sm-12 grid-margin">
           <div className="card">
             <div className="card-body">
-              <h5>DIS Balance</h5>
-              <h4 className="mb-0">{tokenBalance ? tokenBalance : 0} (DIS)</h4>
+              <h5>UPC Balance</h5>
+              <h4 className="mb-0">{tokenBalance ? tokenBalance : 0} (UPC)</h4>
             </div>
           </div>
         </div>
