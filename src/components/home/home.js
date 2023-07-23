@@ -206,7 +206,7 @@ const Dashboard = () => {
     let { amount } = topupVal;
     //amount = amount * 100;
     // amount = amount * 1000000000000000000;
-    amount = web3.utils.toWei(amount, "ether");
+    amount = web3.utils.toWei(amount, "ether")/10000000000000000;
 
     let ICU_ = new web3.eth.Contract(ICU.ABI, ICU.address);
     // let value_ = await ICU_.methods.REGESTRATION_FESS().call();
