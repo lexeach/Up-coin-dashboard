@@ -120,7 +120,7 @@ const Dashboard = () => {
       setTokenBalance(roundToFour(convert_tokenBal));
 
       // Set Token PRice and Next Level Reward
-      const tokenPriceIs_convert = web3.utils.fromWei(tokenPriceIs, "ether");
+      const tokenPriceIs_convert = web3.utils.fromWei(tokenPriceIs, "ether")*10000000000000000;
 
       setTokenPrice(roundToFour(tokenPriceIs_convert));
     }
