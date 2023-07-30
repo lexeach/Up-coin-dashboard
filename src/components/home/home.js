@@ -475,7 +475,7 @@ const Dashboard = () => {
 
         <div className="col-sm-12 grid-margin">
           <div className="card">
-            <div className="card-body text-center">UPC address 0xf250a59723cfb438645772203BA262E52DE5Cd13</div>
+            <div className="card-body text-center">UPC address 0x7a77C665FA222B2F4D294488Aa01baD990072Cf2</div>
           </div>
         </div>
         {/* Registration function  */}
