@@ -109,7 +109,7 @@ function DrawerAppBar(props) {
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             <Button
-              sx={{ color: "#2f2f2f" }}
+              sx={{ color: "#23def3" }}
               onClick={() => copyToClipBoard(account)}
             >
               {account}
