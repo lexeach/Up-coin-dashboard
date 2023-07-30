@@ -118,7 +118,7 @@ function DrawerAppBar(props) {
               onClick={() => openInNewTab("https://main.d2ifd704pk8z9d.amplifyapp.com/")}
               sx={{
                 border: "2px #23def3 solid",
-                color: "#2f2f2f !important",
+                color: "#23def3 !important",
                 borderRadius: "20px;",
               }}
             >
