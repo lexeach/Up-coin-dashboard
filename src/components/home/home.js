@@ -355,7 +355,7 @@ const Dashboard = () => {
             <div className="card-body">
               <h5>Withdrawable ROI</h5>
               <h4 className="mb-0">
-                {registration_Free ? registration_Free : 0} (DIS)
+                {registration_Free ? registration_Free : 0} (UPC)
               </h4>
             </div>
           </div>
@@ -365,8 +365,8 @@ const Dashboard = () => {
         <div className="col-lg-4 col-md-6 col-sm-12 grid-margin">
           <div className="card">
             <div className="card-body">
-              <h5>DIS Price</h5>
-              <h4 className="mb-0">{tokenPrice ? tokenPrice : 0} (USDT)</h4>
+              <h5>UPC Price</h5>
+              <h4 className="mb-0">{tokenPrice ? tokenPrice : 0} (RP)</h4>
             </div>
           </div>
         </div>
@@ -428,7 +428,7 @@ const Dashboard = () => {
         <div className="col-lg-4 col-md-6 col-sm-12 grid-margin">
           <div className="card">
             <div className="card-body">
-              <h5>Staked DIS</h5>
+              <h5>Staked UPC</h5>
               <h4 className="mb-0">
                 {users_stakedToken ? users_stakedToken : 0}
               </h4>
@@ -475,7 +475,7 @@ const Dashboard = () => {
 
         <div className="col-sm-12 grid-margin">
           <div className="card">
-            <div className="card-body text-center">DIS address 0xf250a59723cfb438645772203BA262E52DE5Cd13</div>
+            <div className="card-body text-center">UPC address 0xf250a59723cfb438645772203BA262E52DE5Cd13</div>
           </div>
         </div>
         {/* Registration function  */}
