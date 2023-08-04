@@ -56,7 +56,7 @@ function DrawerAppBar(props) {
       </List>
 
       <List>
-        <a onClick={() => openInNewTab("https://main.d2ifd704pk8z9d.amplifyapp.com/")}>
+        <a onClick={() => openInNewTab("https://swapupc.netlify.app/")}>
           <ListItem disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
               <ListItemText primary="SWAP" />
@@ -115,7 +115,7 @@ function DrawerAppBar(props) {
               {account}
             </Button>
             <Button
-              onClick={() => openInNewTab("https://main.d2ifd704pk8z9d.amplifyapp.com/")}
+              onClick={() => openInNewTab("https://swapupc.netlify.app/")}
               sx={{
                 border: "2px #23def3 solid",
                 color: "#23def3 !important",
