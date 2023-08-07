@@ -343,7 +343,7 @@ const Dashboard = () => {
         <div className="col-lg-4 col-md-6 col-sm-12 grid-margin">
           <div className="card">
             <div className="card-body">
-              <h5>BNB Balance</h5>
+              <h5>NRK Balance</h5>
 
               <h4 className="mb-0">{balance ? balance : 0}</h4>
             </div>
